@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Thank You</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<section class="hero">
+
+<h1>
+🎉 Thank You for Signing Up!
+</h1>
+
+<p id="welcome"></p>
+
+</section>
+
+<script>
+
+let name =
+localStorage.getItem("userName");
+
+document
+.getElementById("welcome")
+.innerHTML =
+"Welcome " + name +
+"! Your journey starts now 🚀";
+
+</script>
+
+</body>
+
+</html>

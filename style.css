@@ -1,0 +1,158 @@
+body {
+
+font-family: 'Segoe UI';
+margin: 0;
+background: linear-gradient(135deg,#667eea,#764ba2);
+color: white;
+
+}
+
+/* Navbar */
+
+.navbar {
+
+display: flex;
+justify-content: center;
+padding: 15px;
+background: rgba(0,0,0,0.3);
+
+}
+
+.logo {
+
+font-size: 28px;
+
+}
+
+/* Hero */
+
+.hero {
+
+text-align: center;
+padding: 80px 20px;
+
+animation: fadeIn 2s;
+
+}
+
+.cta-btn {
+
+display: inline-block;
+margin-top: 20px;
+padding: 12px 25px;
+
+background: white;
+color: #764ba2;
+
+border-radius: 25px;
+text-decoration: none;
+
+font-weight: bold;
+
+transition: 0.3s;
+
+}
+
+.cta-btn:hover {
+
+background: #ffdd57;
+color: black;
+
+}
+
+/* Features */
+
+.features {
+
+text-align: center;
+padding: 40px;
+background: rgba(255,255,255,0.1);
+
+}
+
+.feature-container {
+
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+
+}
+
+.feature-card {
+
+background: rgba(255,255,255,0.2);
+padding: 20px;
+
+border-radius: 15px;
+
+width: 200px;
+
+transition: 0.3s;
+
+}
+
+.feature-card:hover {
+
+transform: scale(1.1);
+background: rgba(255,255,255,0.3);
+
+}
+
+/* Signup */
+
+.signup {
+
+text-align: center;
+padding: 50px;
+
+}
+
+input {
+
+padding: 12px;
+margin: 10px;
+
+border-radius: 8px;
+border: none;
+
+width: 220px;
+
+}
+
+button {
+
+padding: 12px 25px;
+
+border: none;
+border-radius: 25px;
+
+background: #ffdd57;
+
+font-weight: bold;
+
+cursor: pointer;
+
+}
+
+button:hover {
+
+background: #ffc107;
+
+}
+
+#message {
+
+margin-top: 15px;
+font-weight: bold;
+
+}
+
+/* Animation */
+
+@keyframes fadeIn {
+
+from {opacity:0;}
+to {opacity:1;}
+
+}
